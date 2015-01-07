@@ -34,6 +34,15 @@ if foolad :
 	PO.mood("jalase")
 	TEAM.mood("baghali shodim")
 
+if members["fun writer"].mood("pishraft"):
+	if pishraft.Analysis(Sadegh):
+		members["fun writer"].pattern = pishraft.result
+	else:
+		BroadCast("Sadegh nardebooni pishraft mikone, shibesh amoodie!")
+		members["fun writer"].mood = ":))))))))"
+		Sadegh.mood = "!"
+		Sadegh.think = "What is the matter!!! nardeboon?!!!"
+
 if ! os.path.exist(*.iso)
 	print "iso besazim"
 	os.run("bash touch XaaS.iso")
