@@ -1,8 +1,13 @@
 #!/bin/python
 members = ('a','b','c','d','e','f','g')
 
+print "Thanks FUN Writer! You help the team to get in the better feeling"
+print "Thanks for this great git repository"
+print "man az haminja to jam az shoma tashakkor mikonam ;)"
+
 def ignore(sth):
 	PO.mood("baz shoroo kard")
+
 
 for i in members:
 	raw_input('Che khabar :) ')
@@ -33,6 +38,36 @@ else if AkhareFaaz:
 if foolad : 
 	PO.mood("jalase")
 	TEAM.mood("baghali shodim")
+	foolad.think("aamo koojan ina?! nimfahman man injam?!")
+	foolad.mood(NULL)
+	foolad.create("Job for others")
+	foolad.sleep("1W")
+	Others.build("foolad jobs", time="1W")
+#	Nothing will be printed!! Since foolad is exist! :))) 
+#	Do NOT any Idea will be "print"ed!!
+#	Do NOT any Work will be "print"ed!!
+#	Do NOT any Work will be "print"ed!!
+#	Just silence will be "print"ed!!
+	print NULL
+	
+	if foolad.see(sadegh):
+		foolad.think("in bache inja chikar mikone")
+		sadegh.think("dare be my age FEKR mikone!!")
+		sadegh.tell("salam^, chetoriN^?")
+		foolad.mood("!")
+		foolad.tell("salam, khoobam, shooma chitowri?!")
+		sadegh.tell("bad nistam^^")
+	
+if seyed.see(sadegh) and exist(i) for i in members
+	seyed.tell("agha ma bache boodim chikar mikardim?")
+	sadegh.think("ey baw! ajab giri oftadima! har ki az har jayee be my age kaar dare!")
+	sadegh.think("nakone ina enghade senneshoon rafte bala ke dige cell e khakestari nadaran!?!")
+	sadegh.tell(NULL)
+	seyed.tell("boro beshin darseto bekhoon bache! ma ham senne to boodim azin kara nemikardim ke!")
+	i.mood(":))))")
+	sadegh.tell(NULL)
+	sadegh.mood(":(")
+	sadegh.tell("man az in kare shoma narahat misham").private_to(seyed)
 
 if members["fun writer"].mood("pishraft"):
 	if pishraft.Analysis(Sadegh):
