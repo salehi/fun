@@ -37,7 +37,7 @@ def delivery_meeting(self)
 	# TODO: to complete and merge specified codes
 	return true
 
-def grooming_meeting
+def grooming_meeting(self)
 	# TODO: to complete and merge specified codes
 	return true
 
