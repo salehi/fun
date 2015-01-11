@@ -1,27 +1,70 @@
 #!/bin/python
+import os
 members = ('a','b','c','d','e','f','g')
 
 print "Thanks FUN Writer! You help the team to get in the better feeling"
 print "Thanks for this great git repository"
 print "man az haminja to jam az shoma tashakkor mikonam ;)"
 
-def ignore(sth):
-	PO.mood("baz shoroo kard")
-
-
-for i in members:
-	raw_input('Che khabar :) ')
-	if PO.feedback == true:
-		print "Khaste nabashin! :)"
-	else:
-		print "Saritar jamesh konin!"
-		print "Khaste nabashin :("
-	if SADEGH.comment:
-		ignore( SADEGH.comment )
+def ignore(self,member):
+	if member == PO:
+		PO.mood = "baz shoroo kard"
+		return True
 	else
-		PO.mood("nafasi rahat")
-	print "Dev ro ham update konin!"
-	continue
+		member.tasvieh = True
+		member.mood = "Pashiman"
+		return False
+
+def scrum_daily_meeting(self):
+	# TODO: to complete and merge specified codes
+	for i in members:
+        	raw_input('Che khabar :) ')
+	        if PO.feedback == true:
+        	        print "Khaste nabashin! :)"
+	        else:
+                	print "Saritar jamesh konin!"
+                	print "Khaste nabashin :("
+        	if SADEGH.comment:
+	                ignore( SADEGH.comment )
+	        else
+                	PO.mood("nafasi rahat")
+        	print "Dev ro ham update konin!"
+	        continue
+
+	return true
+
+def delivery_meeting(self)
+	# TODO: to complete and merge specified codes
+	return true
+
+def grooming_meeting
+	# TODO: to complete and merge specified codes
+	return true
+
+def end_of_phase(self):
+        # TODO: to complete and merge specified codes
+        return true
+
+def birthday(self):
+        # TODO: to complete and merge specified codes
+        return true
+
+def pishraft(self,member):
+	if member == SADEGH:
+		return True
+	elif member.has("CAKE") == True
+		return True
+	else
+		return False
+def release(self):
+	if ! os.path.exist(*.iso)
+        	print "iso besazim"
+        	os.run("bash touch XaaS.iso")
+        	print "inam az IaaS, iiiinnnnneeeeeeeeeehhhhhh"
+
+
+################################################################
+# TODO: To be merged the code below in functions above
 
 if pish_berim == true and i > (2*sprint_days.size()/3)
 	print "demo nadarim"
@@ -77,11 +120,6 @@ if members["fun writer"].mood("pishraft"):
 		members["fun writer"].mood = ":))))))))"
 		Sadegh.mood = "!"
 		Sadegh.think = "What is the matter!!! nardeboon?!!!"
-
-if ! os.path.exist(*.iso)
-	print "iso besazim"
-	os.run("bash touch XaaS.iso")
-	print "inam az IaaS, iiiinnnnneeeeeeeeeehhhhhh"
 
 if Ehsan.comment == true or Ehsan.comment == false :
 	print Ehsan.comment:
