@@ -6,48 +6,67 @@ print "Thanks FUN Writer! You help the team to get in the better feeling"
 print "Thanks for this great git repository"
 print "man az haminja to jam az shoma tashakkor mikonam ;)"
 
-def ignore(self,member):
-	if member == PO:
-		PO.mood = "baz shoroo kard"
-		return True
-	else
-		member.tasvieh = True
-		member.mood = "Pashiman"
-		return False
+   
+class Meetings:
+    def init(self):
+        
+        return True
 
-def scrum_daily_meeting(self):
-	# TODO: to complete and merge specified codes
-	for i in members:
-        	raw_input('Che khabar :) ')
-	        if PO.feedback == true:
-        	        print "Khaste nabashin! :)"
-	        else:
-                	print "Saritar jamesh konin!"
-                	print "Khaste nabashin :("
-        	if SADEGH.comment:
-	                ignore( SADEGH.comment )
-	        else
-                	PO.mood("nafasi rahat")
-        	print "Dev ro ham update konin!"
-	        continue
+    def scrum_daily_meeting(self):
+        # TODO: to complete and merge specified codes
+        for i in members:
+                raw_input('Che khabar :) ')
+                if PO.feedback == True:
+                        print "Khaste nabashin! :)"
+                else:
+                        print "Saritar jamesh konin!"
+                        print "Khaste nabashin :("
+                if SADEGH.comment:
+                        ignore( SADEGH.comment )
+                else
+                        PO.mood("nafasi rahat")
+                print "Dev ro ham update konin!"
+                continue
+    
+        return True
+    
+    def delivery_meeting(self):
+        # TODO: to complete and merge specified codes
+        if jalase_tahvil:
+            for t in tasks:
+                if related_to_gbp(t):
+                    print "3% esh moonde, in sprint tamoome, in dafe ye error ei khordim ke nemidoonestim az kojast"
+                if related_to_sadegh(t):
+                    PO.mood("Get Rough and turn off")
+                    PO.tell("Stop it")
+                    PO.think("ajab kari kard! to 4 rooz kare 7 maahe 5 nafaro bast!! zereshk!!!!")
+                    members["r"].tell("foote, Hoooooh, hahahaha :)))") and members["r"].think("in bache oomade be man mige! mikhad be man yad bede!! bishin binim baghali")
+                    sadegh.think("What is the matter!")
+                    sadegh.mood(":(")
+                    sadegh.learn("Get off") and sadegh.build("self")
 
-	return true
+                if related_to_r(t):
+                    print "depende ardalane"
+        return "depende ardalane"
+    
+    def grooming_meeting(self):
+        # TODO: to complete and merge specified codes
+        if new_sprint:
+            add_gbp_task_at_first(asignee=("f","a","j","r")
+            print "inam az in"
+        return "ma kheili khoob pish mirim"
 
-def delivery_meeting(self)
-	# TODO: to complete and merge specified codes
-	return true
-
-def grooming_meeting(self)
-	# TODO: to complete and merge specified codes
-	return true
 
 def end_of_phase(self):
         # TODO: to complete and merge specified codes
-        return true
+        everyone.hurryup = True
+        while ! documents
+
+        return True
 
 def birthday(self):
         # TODO: to complete and merge specified codes
-        return true
+        return True
 
 def pishraft(self,member):
 	if member == SADEGH:
@@ -66,17 +85,17 @@ def release(self):
 ################################################################
 # TODO: To be merged the code below in functions above
 
-if pish_berim == true and i > (2*sprint_days.size()/3)
+if pish_berim == True and i > (2*sprint_days.size()/3)
 	print "demo nadarim"
 	print "hoghoogh hatoono gereftin?"
 	
-else if demo_darim == true:
+else if demo_darim == True:
 	print "chand rooz bishtar namoonde, hamegi hamkari konin ke khoob pish berim"
-	pish_berim = true;
+	pish_berim = True;
 	
 else if AkhareFaaz:
 		print "demo darim"
-		demo_darim=true
+		demo_darim=True
 
 if foolad : 
 	PO.mood("jalase")
@@ -121,34 +140,19 @@ if members["fun writer"].mood("pishraft"):
 		Sadegh.mood = "!"
 		Sadegh.think = "What is the matter!!! nardeboon?!!!"
 
-if Ehsan.comment == true or Ehsan.comment == false :
-	print Ehsan.comment:
+if Ehsan.comment == True or Ehsan.comment == False :
+	print Ehsan.comment
 	PO.tell("khob chetori mishe inkaro kard?")
 	print "intori :-{"
 
-if Ardalan.have_problem == true :
+if Ardalan.have_problem == True :
 	Sadegh.ehzar()
 	sleep 1h
 	ignore(Sadegh)
 
-if new_sprint:
-	add_gbp_task_at_first(asignee=("f","a","j","r")
+
 	
-if jalase_tahvil:
-	for t in tasks:
-		if related_to_gbp(t):
-			print "3% esh moonde, in sprint tamoome, in dafe ye error ei khordim ke nemidoonestim az kojast"
-		if related_to_sadegh(t):
-			PO.mood("Get Rough and turn off")
-			PO.tell("Stop it")
-			PO.think("ajab kari kard! to 4 rooz kare 7 maahe 5 nafaro bast!! zereshk!!!!")
-			members["r"].tell("foote, Hoooooh, hahahaha :)))") and members["r"].think("in bache oomade be man mige! mikhad be man yad bede!! bishin binim baghali")
-			sadegh.think("What is the matter!")
-			sadegh.mood(":(")
-			sadegh.learn("Get off") and sadegh.build("self")
-			
-		if related_to_r(t):
-			print "depende ardalane"
+
 
 # exit Failure anyway!
 exit(FAILURE_EXIT)
