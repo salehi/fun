@@ -90,12 +90,31 @@ def release(self):
     os.run("bash touch XaaS.iso")
     print "inam az IaaS, iiiinnnnneeeeeeeeeehhhhhh"
 
+def pardakht(self,who):
+	if who == "HAMKARPROJEH":
+		responsible = ABBASI
+		ABBASI.state = "PICH"
+		ABBASI.pasokhgoo = False
+		ABBASI.PHONE = "OFF"
+		ABBASI.cache = True
+		os.system("sleep 7d")
+		who.cache = True
+		return True 
+	elif:
+		return True
+
 
 ################################################################
 # TODO: To be merged the code below in functions above
 
 if pish_berim == True and i > (2 * sprint_days.size() / 3):
-    print "demo nadarim"
+    print "demo " \
+          "" \
+          "" \
+          "" \
+          "" \
+          "" \
+          ""
     print "hoghoogh hatoono gereftin?"
 
 elif demo_darim == True:
