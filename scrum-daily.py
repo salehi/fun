@@ -7,11 +7,74 @@ print "Thanks FUN Writer! You help the team to get in the better feeling"
 print "Thanks for this great git repository"
 print "man az haminja to jam az shoma tashakkor mikonam ;)"
 
-
+class Sadegh(Character):
+   def __init__(self):
+   	pass # or may be trying to earn more money :D
+   
+   @classmethod
+   def instance():
+   	if self.Sadegh == None
+   	    self.Sadegh = Sadegh()
+   	assert self.Sadegh == None
+   	return self.Sadegh
+   
+   def critical_ignored_comment(comment):
+   	if is comment["type"] == "Production":
+   	    instance().mood("Hack")
+   	    instance().think("Whats happened after that?")
+   	    instance().do("Hack!")
+   	    # After hack
+   	    
+   	    instance().think("hatman bayad injoori amal kard ta motevajjeh beshin?")
+   	    
+   	    for m in members:
+   	    	m.mood("be roo nayavordan")
+   	    	m.thinking_private("hiiisss, reiis nafahme, jamesh konin")
+   	    
+   	        if m == "seyyed" and instance().hack["related"][m]:
+   	        	
+	   	    	instance().think("Seyyed, man chandin maah bood dashtam migoftam \
+	    	    	              hishki goosh nakard, hatta khodet, akhe oon ham shod code?\
+	    	    	              ye mosht script kenare ham run mishan faghat! yani code nadidi?")
+	   	    	m.think("Hala che kar mishe kard ba in oza? yani enghadr system unstable?")
+	   	    	instance().forget(comment)
+	   	
+	   	if m == "PO" and instance().hack["related"][m]:
+	   		instance().think("alan be chi dare fekr mikone?!")
+	   		m.think("akhar ham baz kare khodesho kard!!!!? in hame takhribesh kardamaaa, Shiiitt")
+	   		m.mood("Pich")
+	   		m.mood(m.mood.join("code haye man eshkal nadare, oon kheyli dige gir mide"))
+	   		instance().think("akhe oonam shod code?, kojaye donya OpenStack SDK ro vel kardan raftan soraghe curl?")
+	   		instance().think("ina nemidoonan overhead chie?")
+	   		instance().think("Programmer nistin ede'aa nakonin khob!")
+	   		instance().think("ekhraj?!")
+	   		instance().think("to hameye donya az injoor karha esteghbal mikonan!")
+	   		instance().think("oon bacheye Switzerland estekhdam shod! man ekhraj misham oonvaght?!")
+	   		instance().think("http://gizmodo.com/5810434/microsoft-hires-14-year-old-after-he-hacks-call-of-duty")
+	   		instance().think("ba ekhraj kardane man kari dorost nemishe")
+	   		instance().think("fekr nakonam ekhraj besham, chon karamo doost daram")
+	   		
+	   	if m == "sina" and instance().hack["related"][m]:
+	   		sina.think("hamoone ke maskharash kardam? azash porsidam midooni packet chie goft na???")
+	   		sina.think("ajab!")
+	   		sina.tasks = sina.tasks + 3 # due to Sadegh
+	   		sina.think("ahhhh, nakon dige")
+	   		sina.do(sina.task)
+	   		sina.think("hala age mitooni bokon")
+	   		instance().think("hehe:D in jooje bazia chie akhe?")
+	   		instance().think("Another hack! because of another disaster!")
+	   	
+	   	
+       	    for disaster in disasters:
+       	        Repeat("Another disaster will be comming soon!")
+       	        Sadegh.hack(disaster)
+   	    	    
+    def hack(arg):
+    	pass # This process is private :D
+    
 class Meetings:
-    def init(self):
-
-        return True
+    def __init__(self):
+	pass
 
     def scrum_daily_meeting(self):
         # TODO: to complete and merge specified codes
@@ -23,7 +86,16 @@ class Meetings:
                 print "Saritar jamesh konin!"
                 print "Khaste nabashin :("
             if SADEGH.comment:
-                ignore(SADEGH.comment)
+#                ignore(SADEGH.comment)
+		while(is not good_time(time)):
+		    os.sleep(1)
+		Sadegh.tell(Sadegh.comment)
+		if is ignored(Sadegh.comment):
+	            if Sadegh.comment is Critical:
+		    	Sadegh.instance().critical_ignored_comment(Sadegh.comment)
+		    else:
+		    	pass # yani bikhial :D
+		
             else
                 PO.mood("nafasi rahat")
             print "Dev ro ham update konin!"
@@ -119,11 +191,12 @@ if pish_berim == True and i > (2 * sprint_days.size() / 3):
 
 elif demo_darim == True:
     print "chand rooz bishtar namoonde, hamegi hamkari konin ke khoob pish berim"
-    pish_berim = True;
+    pish_berim = True
 
 elif AkhareFaaz:
     print "demo darim"
-    demo_darim = True
+    demo["State"] = "darim"
+    demo["Team"]["mood"] = "ey vaaaay!"
 
 if foolad:
     PO.mood("jalase")
@@ -134,31 +207,19 @@ if foolad:
     foolad.sleep("1W")
     Others.build("foolad jobs", time="1W")
     # Nothing will be printed!! Since foolad is exist! :)))
-    # Do NOT any Idea will be "print"ed!!
-    #	Do NOT any Work will be "print"ed!!
-    #	Do NOT any Work will be "print"ed!!
-    #	Just silence will be "print"ed!!
+    
     print NULL
 
-    if foolad.see(sadegh):
-        foolad.think("in bache inja chikar mikone")
-        sadegh.think("dare be my age FEKR mikone!!")
-        sadegh.tell("salam^, chetoriN^?")
-        foolad.mood("!")
-        foolad.tell("salam, khoobam, shooma chitowri?!")
-        sadegh.tell("bad nistam^^")
-
-if seyed.see(sadegh) and exist(i):
-    for i in members:
-        seyed.tell("agha ma bache boodim chikar mikardim?")
-        sadegh.think("ey baw! ajab giri oftadima! har ki az har jayee be my age kaar dare!")
-        sadegh.think("nakone ina enghade senneshoon rafte bala ke dige cell e khakestari nadaran!?!")
-        sadegh.tell(NULL)
-        seyed.tell("boro beshin darseto bekhoon bache! ma ham senne to boodim azin kara nemikardim ke!")
-        i.mood(":))))")
-        sadegh.tell(NULL)
-        sadegh.mood(":(")
-        sadegh.tell("man az in kare shoma narahat misham").private_to(seyed)
+    if Evaluate(Population(Week.day)) > Evaluate(Meeting):
+    	Meeting.Day = min((d for d in Week.days if Evaluate(Population(d)) <= Evaluate(Population(Meeting.Day)))
+    else
+        if Evaluate(Benzin.Cost) > Evaluate(Bus.Cost):
+            if Evaluate(Bus.Cost) < Evaluate(Meeting):
+	        escape(meeting)
+	    else:
+	        bus.transfer(foolad)
+	else
+	    car.transfer(foolad)
 
 if members["fun writer"].mood("pishraft"):
     if pishraft.Analysis(Sadegh):
@@ -169,19 +230,20 @@ if members["fun writer"].mood("pishraft"):
         Sadegh.mood = "!"
         Sadegh.think = "What is the matter!!! nardeboon?!!!"
 
-if Ehsan.comment == True or Ehsan.comment == False:
-    print Ehsan.comment
-    PO.tell("khob chetori mishe inkaro kard?")
-    print "intori :-{"
+#if Ehsan.comment == True or Ehsan.comment == False:
+#    print Ehsan.comment
+#    PO.tell("khob chetori mishe inkaro kard?")
+#    print "intori :-{"
+# He has been left us ;)
 
 if Ardalan.have_problem == True:
-    Sadegh.ehzar()
-    os.system("sleep 3600")
-    ignore(Sadegh)
-
-
-
-
+    if Sadegh is avaiable:
+    	Ardalan.think("ajab!")
+#    	Sadegh.ehzar()
+#    	os.system("sleep 100")
+#    	ignore(Sadegh) --> this item does not occures anymore :)
+    else:
+    	Ardalan.think("adame khoobi bood")
 
 # exit Failure anyway!
 exit(FAILURE_EXIT)
