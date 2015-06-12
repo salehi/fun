@@ -23,7 +23,7 @@ class Sadegh(Character):
    def critical_ignored_comment(comment):
    	if is comment["type"] == "Production":
    	    instance().mood("Hack")
-   	    instance().think("Whats will be happened after that?")
+   	    instance().think("What will happen?")
    	    instance().do("Hack!")
    	    # After hack
    	    
