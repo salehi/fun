@@ -11,6 +11,8 @@ class Sadegh(Character):
    def __init__(self):
    	pass # or may be trying to earn more money :D
    
+   self.Sadegh == None
+   
    @classmethod
    def instance():
    	if self.Sadegh == None
@@ -21,7 +23,7 @@ class Sadegh(Character):
    def critical_ignored_comment(comment):
    	if is comment["type"] == "Production":
    	    instance().mood("Hack")
-   	    instance().think("Whats happened after that?")
+   	    instance().think("Whats will be happened after that?")
    	    instance().do("Hack!")
    	    # After hack
    	    
